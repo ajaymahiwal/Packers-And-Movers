@@ -64,8 +64,11 @@ a > i{
     color: white;
     padding: 4px;
 }
-
+/* .contact-num{
+    border: 2px solid red;
+} */
 .social-media{
+    /* border: 2px solid red; */
     width: 15%;
     display: flex;
     justify-content: space-around;
@@ -82,6 +85,7 @@ a > i{
     
 }
 header{
+    /* border: 3px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,6 +109,7 @@ li a{
     margin: 0 2rem;
     color: black;
     font-size: 1.6rem;
+    /* text-shadow: 2px 2px 5px black; */
     border: none;
     font-weight: bolder;
 }
@@ -130,6 +135,8 @@ header button{
 }
 
 .intro{
+    /* margin-top: 12%;
+    margin-left: 4%; */
     position: absolute;
     left: 5%;
     top: 20%;
@@ -138,6 +145,7 @@ header button{
     z-index: 2;
 }
 .intro  h3,p{
+    /* text-shadow: 0px 0px 1px  black; */
     margin: 1.3rem 0;
 }
 .intro h1{
@@ -162,9 +170,11 @@ header button{
     position: relative;
 }
 .about-us{
+    /* height: 20vw; */
     width: 60%;
     margin-top: 10vw;
     margin-left: 7%;
+    /* border: 2px solid rgb(92, 17, 212); */
 }
 
 .about-us h4{
@@ -181,6 +191,7 @@ header button{
     position: absolute;
     width: 35%;
     right: 5%;
+    /* border: 2px solid red; */
     text-align: center;
     box-shadow: 0 0 7px black;
 }
@@ -192,6 +203,10 @@ header button{
     background-color: black;
     color: white;
 }
+/* form{
+    width: 80%;
+    border: 2px solid blue;
+} */
 
 input{
     margin-top: 1.3rem;
@@ -219,6 +234,7 @@ form button{
 
 .features{
     margin-left: 7%;
+    /* border: 2px solid red; */
     display: flex;
     width: 40%;
     justify-content: space-between;
@@ -227,6 +243,7 @@ form button{
     box-shadow: 0 0 5px black;
     width: 30%;
     height: 10vw;
+    /* background-color: #FCD200; */
     position: relative;
 }
 
@@ -256,15 +273,18 @@ form button{
 
 #page3{
     margin-top: 5vw;
+    /* border: 5px dotted red; */
     width: 100%;
     height: 200%;
     position: relative;
+    /* background-color: aquamarine; */
 }
 
 .services{
     position: relative;
     width: 100%;
     height: 85%;
+    /* background-color: #FCD200; */
     background-image: url("./img/pexels-karolina-grabowska-4506250.jpg");
     background-position: center;
     background-size: cover;
@@ -291,6 +311,7 @@ form button{
     font-size: 2rem;
 }
 .right-serve{
+    /* display: inline-block; */
     position:absolute;
     background-color: #FCD200;
     width: 150%;
@@ -298,6 +319,7 @@ form button{
     z-index: 1;
     right: -75vw;
     top: -20vw;
+    /* transform:skew(10deg); */
     transform: rotate(45deg);
 }
 
@@ -308,6 +330,7 @@ form button{
     justify-content: space-evenly;
     align-items: center;
     gap: 3vw;
+    /* border: 2px dotted red; */
     width: calc(100% - 7vw);
     margin: 0 auto;
     height: 75%;
@@ -316,6 +339,8 @@ form button{
     position: relative;
     width: 25vw;
     height: 22vw;
+    /* border: 2px solid black; */
+    /* background-color: blueviolet; */
 }
 
 .serve-box::before{
@@ -353,6 +378,7 @@ form button{
 .stats-box{
     height: 100%;
     width: 24%;
+    /* width: calc(100% / 4); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -393,9 +419,11 @@ form button{
 } */
 
 #page4{
+    /* border: 5px dotted red; */
     width: 100%;
     height: 120%;
     position: relative;
+    /* background-color: aquamarine; */
 }
 
 #page4 > img{
@@ -461,6 +489,7 @@ sup > i{
     position: relative;
     width: 100%;
     height: 80%;
+    /* border: 5px solid blue; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -469,6 +498,7 @@ sup > i{
 .p5-left{
     width: 50%;
     height: 80%;
+    /* border: 2px solid red; */
     padding-left: 3vw;
 }
 .p5-right{
@@ -494,6 +524,8 @@ sup > i{
 
 .p5-left-bottom{
     margin-top: 2vw;
+    /* border: 2px solid yellowgreen; */
+    /* height: 6vw; */
     display: flex;
     overflow: hidden;
 }
@@ -555,6 +587,7 @@ sup > i{
     position: relative;
     width: 100%;
     height: 90%;
+    /* border: 5px solid blue; */
     border-bottom: 2px solid black;
 }
 
@@ -565,7 +598,9 @@ sup > i{
 }
 
 .p7-top{
+    /* border: 2px solid red; */
     display: flex;
+    /* align-items: center; */
     justify-content: space-between;
 }
 .p7-top i{
@@ -574,6 +609,7 @@ sup > i{
 }
 .media-btn{
     width:20vw;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
 }
@@ -594,9 +630,13 @@ sup > i{
     margin:2vw;
     display: flex;
     align-items: center;
+    /* border: 3px solid red; */
 }
 .steps-box{
+    /* border: 2px solid red; */
+    /* width: 15%; */
     height: 40%;
+    /* background-color: blueviolet; */
     text-align: center;
 }
 .steps-box h3{
@@ -615,12 +655,14 @@ sup > i{
 }
 .arrow{
     height: 22px;
+    /* border: 2px solid red; */
 }
 
 #page8{
     position: relative;
     width: 100%;
     height: 120%;
+    /* border: 5px dotted blue; */
 }
 .men-with-box{
     position: absolute;
@@ -631,12 +673,16 @@ sup > i{
     object-fit: cover;
 }
 .p8-main{
+    /* width: 60%; */
     height: 90%;
+    /* background-color: cornflowerblue; */
     display: flex;
     flex-direction: row-reverse;
+    /* border: 3px solid red; */
 }
 .p8-content{
     margin-top: 10%;
+    /* border: 5px solid rgb(128, 105, 0); */
     width: 60%;
 }
 .p8-content h3{
@@ -649,6 +695,9 @@ sup > i{
     margin-bottom: 1rem;
 }
 .p8-bullets{
+    /* border: 3px solid red; */
+    /* width: 50%; */
+    /* height: 20vw; */
     display: flex;
     flex-wrap: wrap;
     gap: 3vw;
@@ -660,13 +709,19 @@ sup > i{
 .bult{
     display: flex;
     align-items: center;
+    /* flex-direction: column; */
+    /* width: 10vw; */
 }
 .bult i,p{
     margin: 0;
     margin-top: 0.7rem;
 }
 .all-review{
+    /* border: 3px solid seashell; */
     width: 100%;
+    /* height: 50%; */
+    /* display: flex; */
+    /* overflow: hidden; */
 }
 .review-box{
     width: 85%;
@@ -704,11 +759,17 @@ sup > i{
     position: relative;
     width: 100%;
     padding:0 5%;
+    /* height: 130%; */
+    /* background-color: aquamarine; */
 }
 
 .p9-main{
     display: flex;
+    /* gap: 3vw; */
     justify-content: space-between;
+    /* margin: 0 5%; */
+    /* width: 100%; */
+    /* border: 2px solid red; */
 }
 .p9-title{
     color: #FCD200;
@@ -746,6 +807,7 @@ sup > i{
 }
 
 .news-top{
+    /* border: 2px solid red; */
     width: 100%;
     position: relative;
 }
@@ -770,10 +832,12 @@ a i{
 
 .other-news{
     position: relative;
+    /* background-color: brown; */
     overflow: hidden;
 }
 .main-news{
     margin: 0 2vw;
+    /* border: 3px dotted red; */
     display: flex;
     flex-direction: column;
 }
@@ -798,7 +862,9 @@ a i{
 #page10{
 
     margin-top: 5vw;
+    /* border: 5px solid red; */
     width: 100%;
+    /* height: 70%; */
     position: relative;
     overflow: hidden;
 }
@@ -842,16 +908,20 @@ background: linear-gradient(45deg, rgba(24,41,55,1) 65%, rgba(252,210,0,1) 65%);
 
 
 footer{
+    /* border:4px solid red; */
     color: white;
     background-color: rgb(6, 22, 36);
     padding: 7vw 3vw;
     width: 100%;
     display: flex;
     justify-content: space-around;
+    /* gap: 3vw; */
 }
 
 .foot-logo{
+    /* border: 2px solid red; */
     width: 10vw;
+    /* height: ; */
     object-fit: contain;
     mix-blend-mode: exclusion;
     animation: glowingLogo 3s infinite;
@@ -867,6 +937,7 @@ footer{
 }
 .our-info{
     width: 37%;
+    /* border: 3px solid red; */
 }
 
 
@@ -880,11 +951,14 @@ footer{
 }
 .support{
     width: 13%;
+    /* border: 3px solid red; */
 }
 .our-service{
+    /* border: 3px solid red; */
     width: 15%;
 }
 .contact{
+    /* border: 3px solid red; */
     width: 25%;
 }
 
@@ -896,6 +970,7 @@ footer h3{
 
 footer a{
     color: white;
+    /* font-size: 1rem; */
 }
 
 footer ul a li{
