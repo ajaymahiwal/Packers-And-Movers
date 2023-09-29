@@ -8,8 +8,43 @@
 html , body{
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
+
+/* #page1{
+    border: 2px solid blue;
+}
+#page2{
+    border: 2px solid blue;
+}
+#page3{
+    border: 2px solid blue;
+}
+#page4{
+    border: 2px solid blue;
+}
+#page5{
+    border: 2px solid blue;
+}
+#page6{
+    border: 2px solid blue;
+}
+#page7{
+    border: 2px solid blue;
+}
+#page8{
+    border: 2px solid blue;
+}
+#page9{
+    border: 2px solid blue;
+}
+#page10{
+    border: 2px solid blue;
+}
+#page11{
+    border: 2px solid blue;
+} */
 .home-top{
     width: 100%;
     background-color: rgb(38, 38, 38);
@@ -27,7 +62,7 @@ html , body{
     height: 5vw;
 }
 .home-top img{
-    width: 7rem;
+    width: 6rem;
     mix-blend-mode:exclusion;
     filter:brightness(1.7)  saturate(3);
 }
@@ -82,14 +117,15 @@ a > i{
     
 }
 header{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
 }
 header > img{
-    width: 10rem;
+    width: 7rem;
     mix-blend-mode: exclusion;
     filter: saturate(3) brightness(2);
 }
@@ -100,9 +136,10 @@ li{
 nav ul {
     display: flex;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 li a{
-    margin: 0 2rem;
+    /* margin: 0 2rem; */
     color: black;
     font-size: 1.6rem;
     border: none;
@@ -120,7 +157,7 @@ li a{
         text-shadow: 2px 2px 7px white;
     }
 }
-header button{
+.order-btn{
     padding: 0 1rem;
     background-color: rgb(13, 24, 32);
     border: none;
@@ -152,11 +189,15 @@ header button{
     width: 60%;
 }
 
-
+.menu{
+    display: none;
+    font-size: 2rem;
+    padding: 0 2rem;
+}
 
 #page2{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -165,13 +206,15 @@ header button{
     width: 60%;
     margin-top: 10vw;
     margin-left: 7%;
+    margin-bottom: 4vw;
 }
 
 .about-us h4{
+    font-size: 1.5rem;
     color: rgb(226, 226, 34);
 }
 .about-us h1{
-    width: 60%;
+    width: 70%;
     font-size: 2.5rem;
 }
 .about-us p{
@@ -255,16 +298,18 @@ form button{
 
 
 #page3{
-    margin-top: 5vw;
+    border: 5px solid red;
+    margin: 5vw 0 8vw;
     width: 100%;
-    height: 200%;
+    /* height: 200%; */
     position: relative;
+    padding-bottom: 15em;
 }
 
 .services{
     position: relative;
     width: 100%;
-    height: 85%;
+    /* height: 85%; */
     background-image: url("./img/pexels-karolina-grabowska-4506250.jpg");
     background-position: center;
     background-size: cover;
@@ -272,12 +317,13 @@ form button{
     overflow: hidden;
     text-align: center;
     color: white;
+    /* padding-bottom: 15vw; */
 }
 
 .left-serve{
     background-color: #1e425a6e;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .left-serve > h1{
@@ -287,6 +333,8 @@ form button{
     padding: 2vw 0;
 }
 .left-serve > h3{
+    position: relative;
+    z-index: 2;
     padding: 2vw 0;
     font-size: 2rem;
 }
@@ -341,14 +389,15 @@ form button{
     background-color: white;
     overflow: hidden;
     width: calc(100% - 10vw);
-    height: 15vw;
     position: absolute;
     z-index: 2;
     left: 5vw;
     bottom: 6vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     box-shadow: 0 0 5px black;
+    padding: 1rem 0;
 }
 .stats-box{
     height: 100%;
@@ -360,9 +409,9 @@ form button{
 }
 
 .progress-bar{
-    width: 42%;
+    width: 7rem;
     font-size: 1.5rem;
-    height: 60%;
+    height: 7rem;
     border-radius: 50%;
     border: 6px solid yellow;
     display: flex;
@@ -422,7 +471,7 @@ form button{
     color: #FCD200;
 }
 .page4-intro h1{
-    font-size: 3rem;
+    font-size: 1rem;
 }
 .p4-btn{
     padding: 1rem 1.7rem;
@@ -566,6 +615,7 @@ sup > i{
 
 .p7-top{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .p7-top i{
@@ -593,6 +643,7 @@ sup > i{
 .steps{
     margin:2vw;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 .steps-box{
@@ -708,6 +759,7 @@ sup > i{
 
 .p9-main{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .p9-title{

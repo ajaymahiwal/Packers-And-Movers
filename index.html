@@ -8,6 +8,7 @@
     <title>Home Page</title>
     <link rel="shortcut icon" href="./img/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="respo.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 
 </head>
@@ -35,8 +36,8 @@
     <div id="page1">
         <header>
             <img src="./img/logo.jpg" alt="">
-            <nav>
-                <ul>
+            <nav class="navbar">
+                <ul class="navbar-links">
                     <li><a href="/" class="glow">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Services</a></li>
@@ -45,7 +46,8 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
-            <button>Order Moving</button>
+            <button class="order-btn">Order Moving</button>
+            <i class="ri-menu-line menu"></i>
         </header>
         <div class="intro">
             <h3>PROVIDE BEST MOVING SERVICE</h3>
@@ -64,6 +66,19 @@
             <h1>The Best Moving Company In The Country</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse ullamco laboris nisi ut aliquip commodo.</p>
         </div>
+
+        <div class="features">
+            <div class="box">
+                Free Estimate
+            </div>
+            <div class="" id="mid-box">
+                Packaging & Unpacking
+            </div>
+            <div class="box">
+                Moving Protection
+            </div>
+        </div>
+
         <div class="about-form">
             <div class="form-title">
                 Request A Quote
@@ -78,18 +93,6 @@
                     <button>SUBMIT</button>
                 </form>
             <!-- </div> -->
-        </div>
-
-        <div class="features">
-            <div class="box">
-                Free Estimate
-            </div>
-            <div class="" id="mid-box">
-                Packaging & Unpacking
-            </div>
-            <div class="box">
-                Moving Protection
-            </div>
         </div>
     </div>
 
@@ -128,9 +131,8 @@
             </div>
         </div>
     </div>
-
+  
     <div id="page4">
-        <img src="./img/pexels-rdne-stock-project-7464647.jpg" alt="">
         <div class="page4-intro">
             <h3>WHY CHOOSE US</h3>
             <h1>We Professional Moving Company</h1>
@@ -141,6 +143,7 @@
             <button class="p4-btn">KNOW MORE</button>
             <button class="p4-btn p4-btn-Eff">CONTACT US</button>
         </div>
+        
         <div class="p4-stats">
             <div class="p4-left-stat">
                 <div class="num">48<sup><i class="ri-add-fill"></i></sup></div>
@@ -151,9 +154,11 @@
                 <p>Project Completed</p>
             </div>
         </div>
+        <img src="./img/pexels-rdne-stock-project-7464647.jpg" alt="">
+        
     </div>
 
-
+ 
     <div id="page5">
         <div class="p5-left">
             <div class="p5-left-top">
