@@ -169,7 +169,7 @@
         height: 90%;
         display: flex;
         flex-direction: row;
-        margin-left: 3rem;
+        padding:0 2rem;
     }
 
     .p8-content {
@@ -229,6 +229,7 @@
 
 @media(width<=900px) {
 
+    /* Home Top */
     .home-top,
     .temp {
         height: 9vw;
@@ -402,7 +403,7 @@
     }
 
     .p8-content h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     /* Page9 */

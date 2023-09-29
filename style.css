@@ -919,11 +919,11 @@ a i{
 }
 
 #page10{
-
     margin-top: 5vw;
     width: 100%;
     position: relative;
     overflow: hidden;
+    padding: 2rem 0 0;
 }
 
 .p10-main{
@@ -955,8 +955,8 @@ background: linear-gradient(45deg, rgba(24,41,55,1) 65%, rgba(252,210,0,1) 65%);
 }
 
 .p10-img{
-    width: 40vw;
-    height: 40vw;
+    width: 35vw;
+    height: 35vw;
     object-fit: cover;
     position: absolute;
     bottom: 0;
@@ -1047,6 +1047,7 @@ footer ul a li{
     font-size: 1rem;
     display: flex;
     justify-content: space-between;
+    padding: 1rem 0;
 }
 .copyright-section div{
     width: 100%;
