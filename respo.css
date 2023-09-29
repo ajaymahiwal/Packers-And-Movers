@@ -105,6 +105,81 @@
 }
 
 
+@media(width<=1000px){
+    #page4{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .page4-intro{
+        position: static;
+        background-color: white;
+        width: 94%;
+        padding: 5vw;
+    }
+    .p4-btn{
+        margin-top: 1.5rem;
+    }
+    
+.p4-stats{
+    width: 100%;
+    text-align: center;
+    position: static;
+    display: flex;
+    justify-content: space-evenly;
+    font-size:2rem;
+    margin-block: 3rem;
+}
+
+
+#page4 > img{
+    margin-left: 0;
+    object-fit: cover;
+    width: 100%;
+    /* height: 50%; */
+}
+
+
+/* Page5 */
+.p5-left{
+    width: 100%;
+}
+.p5-right{
+    width: 100%;
+}
+.p5-left h3{
+    font-size: 1.1rem;
+}
+.p5-left h1{
+    font-size: 2.2rem;
+}
+
+/* Page8 */
+.p8-main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 3rem;
+}
+.p8-content{
+    margin-top: 10%;
+    width: 100%;
+}
+.p8-bullets{
+    gap: 10vw;
+}
+#men-with-box{
+    position: static;
+    width:100%;
+    object-fit: cover;
+    z-index: 2;
+    background-color:#00f4fc28;
+}
+
+}
+
 @media(width<=900px){
     .home-top, .temp{
         height: 9vw;
@@ -123,6 +198,31 @@
     .services{
         /* height: 80%; */
     }
+
+
+    /* Page 7 */
+    .p7-top{
+        flex-wrap: wrap;
+    }
+    .media-btn{
+        width: 100%;
+    }
+    .steps{
+        flex-wrap: wrap
+    }
+    .arrow{
+        height:1.5rem;
+    }
+    .steps-box{
+        width: 30%;
+    }
+    #mid-arrow{
+        display: none;
+    }
+    .step-logo{
+        width: 13vw;
+        height: 13vw;
+    }
 }
 
 
@@ -133,6 +233,43 @@
     .news-img{
 
     }
+
+    /* Page6 */
+    .p6-side{
+        right: -70vw;
+        top: 0;
+    }
+
+    /* page 8 */
+    .user-details img{
+        width: 10vw;
+        height: 10vw;
+    }
+}
+@media(width<=700px){
+    /* Page6 */
+    .p6-side{
+        right: -75vw;
+        top: 15vw;
+    }
+
+    /* Page7 */
+    .arrow{
+        display: none;
+    }
+    .steps-box{
+        width: 100%;
+    }
+    .step-logo{
+        width: 19vw;
+        height: 19vw;
+    }
+
+    /* page 8 */
+    .user-details img{
+        width: 12vw;
+        height: 12vw;
+    }
 }
 @media(width<=600px){
     .home-top, .temp{
@@ -142,10 +279,6 @@
     .right-serve {
         right: -120vw;
         top: -32vw;
-    }
-    .services{
-        /* height: 50%; */
-        border: 5px solid red;
     }
     .serve-box{
         width: 100%;
@@ -161,15 +294,31 @@
     #page3{
         padding-bottom: 25em;
     }
-    .stats{
-    }
+
     .stats-box{
         width: 50%;
+    }
+
+    /* page6 */
+    .p6-side{
+        right: -80vw;
+        top: 45vw;
+    }
+
+    /* Page 8 */
+    .p8-content h3{
+        font-size: 1.1rem;
+    }
+    .p8-content h1{
+        font-size: 2.5rem;
     }
 }
 @media(width<=500px){
     body{
         font-size: 10px;
+    }
+    p{
+        font-size: 1rem;
     }
     .home-top, .temp{
         height:14vw;
@@ -183,7 +332,24 @@
         top: -45vw;
     }
 
+    /* page4 */
+    .page4-intro h1{
+        font-size: 2.3rem;
+    }
+    .page4-intro p{
+        font-size: 1rem;
+    }
+/* page6 */
+.p6-side{
+    right: -105vw;
+    bottom: 0vw;
+}
 
+/* page 8 */
+.user-details img{
+    width: 16vw;
+    height: 16vw;
+}
     
 }
 @media(width<=450px){
@@ -219,6 +385,34 @@
         right: -120vw;
         top: -85vw;
     }
+
+    /* page6 */
+.p6-side{
+    width: 120%;
+    right: -115vw;
+    top: 90vw;
+}
+
+
+
+}
+
+
+
+@media(width<=400px){
+    /* page 8 */
+.user-details img{
+    width: 7rem;
+    height: 5rem;
+}
+.p8-main{
+    padding: 0;
+    margin-left: 5px;
+}
+.p8-content{
+    /* border: 2px solid red; */
+    padding: 0;
+}
 }
 @media(width<=350px){
     .home-top, .temp{
@@ -233,4 +427,14 @@
         right: -120vw;
         top: -105vw;
     } */
+
+     /* page6 */
+     .p6-btn{
+        font-size: 1rem;
+     }
+.p6-side{
+    width: 120%;
+    right: -145vw;
+    top: 130vw;
+}
 }
