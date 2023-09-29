@@ -820,6 +820,7 @@ sup > i{
 }
 .p9-top{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 3vw 0;
 }
@@ -829,13 +830,13 @@ sup > i{
 .p9-btn{
     font-size: 1.3rem;
     border: none;
-    padding: 1rem 2.2rem;
+    padding: 1rem 2rem;
     background-color: blueviolet;
     color: white;
 }
 .news-box{
     width: 30%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     padding-top: 5vw;
 }
 
@@ -857,6 +858,15 @@ sup > i{
     height: 25vw;
     object-fit: cover;
 }
+/* .news-img{
+    background-image: url("./img/Men-WithBoxx.png");
+    width: 100%;
+    height: 25vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+} */
 .news-top a{
     padding: 1rem;
     position: absolute;
@@ -865,6 +875,10 @@ sup > i{
     background-color: white;
     font-size: 1.3rem;
     text-decoration: none;
+}
+
+.news-box h2{
+    font-size: 1.3rem;
 }
 
 a i{
@@ -884,6 +898,12 @@ a i{
     width:100%;
     margin-bottom: 3vw;
     z-index: 2;
+}
+.news a{
+    font-size: 1.2rem;
+}
+.date{
+    font-size: 1rem;
 }
 
 .side-angle{
@@ -910,7 +930,7 @@ a i{
     margin-top: 12vw;
     background: rgb(24,41,55);
 background: linear-gradient(45deg, rgba(24,41,55,1) 65%, rgba(252,210,0,1) 65%);
-    height: 25vw;
+    /* height: 25vw; */
     width:100%;
     padding: 3rem;
     color: white;
@@ -918,6 +938,7 @@ background: linear-gradient(45deg, rgba(24,41,55,1) 65%, rgba(252,210,0,1) 65%);
 }
 .p10-main p{
     width: 50%;
+    margin-bottom: 3rem;
 }
 .p10-main h2{
     font-size: 1.7rem;
@@ -950,6 +971,9 @@ footer{
     padding: 7vw 3vw;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    /* align-content: space-between; */
+    row-gap: 5vw;
     justify-content: space-around;
 }
 
@@ -971,7 +995,9 @@ footer{
 .our-info{
     width: 37%;
 }
-
+.our-info p{
+    width: 85%;
+}
 
 .social-links{
     margin: 3vw 0;
@@ -1014,7 +1040,15 @@ footer ul a li{
 }
 
 
-
-
-
-
+.copyright-section{
+    text-align: center;
+    background-color: rgb(5, 3, 10);
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-section div{
+    width: 100%;
+    padding: 0 2rem;
+}

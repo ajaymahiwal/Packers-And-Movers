@@ -178,6 +178,37 @@
     background-color:#00f4fc28;
 }
 
+/* Page9 */
+.news-box{
+    width: 100%;
+}
+
+/* Page 10 */
+.p10-img{
+    display: none;
+}
+.p10-main p{
+    width: 90%;
+}
+
+/* Footer */
+.our-info{
+    width: 50%;
+}
+.support{
+    width: 50%;
+}
+.our-service{
+    width: 50%;
+}
+.contact{
+    width: 50%;
+}
+.foot-logo{
+    width: 16vw;
+}
+
+
 }
 
 @media(width<=900px){
@@ -270,7 +301,35 @@
         width: 12vw;
         height: 12vw;
     }
+    /* Page9 */
+    .p9-btn{
+        font-size: 1.2rem;
+        padding: 0.7rem 2rem;
+    }
+    /* Footer */
+.our-info{
+    width: 100%;
 }
+.support{
+    width: 100%;
+}
+.our-service{
+    width: 100%;
+}
+.contact{
+    width: 100%;
+}
+
+/* CopyRight Section */
+.copyright-section{
+    flex-wrap: wrap;
+}
+.copyright-section div{
+    padding: 1rem;
+}
+}
+
+
 @media(width<=600px){
     .home-top, .temp{
         height:12vw;
@@ -312,6 +371,28 @@
     .p8-content h1{
         font-size: 2.5rem;
     }
+
+    /* Page9 */
+    .p9-head-title{
+        margin-bottom: 0.7rem;
+        width: 100%;
+        font-size: 3rem;
+    }
+    .news-top a{
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+    }
+    .news-img{
+        height: 30vw;
+   }
+
+   /* Page10 */
+   .call-us{
+    font-size: 1.7rem;
+    }
+    ul .linkEff{
+        font-size: 0.9rem;
+    }
 }
 @media(width<=500px){
     body{
@@ -349,6 +430,11 @@
 .user-details img{
     width: 16vw;
     height: 16vw;
+}
+
+/* Page10 */
+.foot-logo{
+    width: 24vw;
 }
     
 }
@@ -393,7 +479,19 @@
     top: 90vw;
 }
 
-
+/* Page10 */
+.call-us span{
+    display: inline-block;
+}
+.call-us{
+    font-size: 1.5rem;
+}
+.social-links{
+    margin: 7vw 0;
+}
+.social-links a i{
+    padding: 0.2rem;
+}
 
 }
 
@@ -413,7 +511,30 @@
     /* border: 2px solid red; */
     padding: 0;
 }
+
+/* Page 9 */
+.p9-head-title{
+    font-size: 2rem;
 }
+.p9-btn{
+    font-size: 1rem;
+    padding: 0.5rem 1.8rem;
+}
+.news-top a{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.news-img{
+    height: 45vw;
+}
+
+
+/* Page10 */
+.foot-logo{
+    width: 33vw;
+}
+}
+
 @media(width<=350px){
     .home-top, .temp{
         height:19vw;
@@ -437,4 +558,7 @@
     right: -145vw;
     top: 130vw;
 }
+.call-us{
+    font-size: 1rem;
+    }
 }
