@@ -109,6 +109,14 @@
 
 
 @media(width<=1000px) {
+
+    /* Page3 */
+    .serve-box{
+        width: 40%;
+    }
+
+
+    /* Page4 */
     #page4 {
         display: flex;
         flex-direction: column;
@@ -245,6 +253,17 @@
     }
 
 
+    /* Page3 */
+    .serve-box{
+        width: 100%;
+    }
+    .right-serve{
+        right: -135vw;
+    top: -20vw;
+    }
+
+
+
     /* Page 7 */
     .p7-top {
         flex-wrap: wrap;
@@ -278,6 +297,16 @@
 
 
 @media(width<=800px) {
+
+    /* Page3 */
+    .right-serve{
+        display: none;
+    }
+    .serve-box{
+        height: 30vw;
+    }
+
+
     .news-box {
         width: 100%;
     }
@@ -456,6 +485,17 @@
         top: -45vw;
     }
 
+    .serve-box{
+        height: 35vw;
+        margin-bottom: 2rem;
+    }
+    .serve-box h2{
+        font-size: 1.4rem;
+    }
+    .serve-box a{
+        font-size: 1rem;
+    }
+
     /* page4 */
     .page4-intro h1 {
         font-size: 2.3rem;
@@ -524,6 +564,10 @@
         top: -85vw;
     }
 
+    .serve-box{
+        height: 50vw;
+    }
+
     /* page6 */
     .p6-side {
         width: 120%;
@@ -553,6 +597,10 @@
 
 
 @media(width<=400px) {
+    /* Page3 */
+    .serve-box{
+        height: 55vw;
+    }
 
     /* page 8 */
     .user-details img {
@@ -612,7 +660,10 @@
         right: -120vw;
         top: -105vw;
     } */
-
+    .serve-box{
+        height: 95vw;
+        margin-bottom: 1rem;
+    }
     /* page6 */
     .p6-btn {
         font-size: 1rem;
