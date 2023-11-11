@@ -267,6 +267,7 @@ form button{
     display: flex;
     width: 40%;
     justify-content: space-between;
+    text-align: center;
     /* border: 2px solid red; */
 }
 .box{
@@ -292,7 +293,7 @@ form button{
     height: 10vw;
     background-color: #FCD200;
 }
-
+ 
 .box::before{
     content: "";
     position: absolute;
